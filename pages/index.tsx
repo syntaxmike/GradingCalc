@@ -66,11 +66,11 @@ const Home = () => {
             <input type="reset" onClick={handleReset} className='bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded' value="Reset" />
           </div>
           <p className="px-2 py-2 text-2xl">Centering Grade: 
-              {percent >= 50 && percent <= 55 && <span className="text-green-800 text-5xl px-2">10</span>}
-              {percent >= 56 && percent <= 60 && <span className="text-red-800 text-5xl px-2">9</span>}
-              {percent >= 61 && percent <= 65 && <span className="text-yellow-800 text-5xl px-2">8</span>}
+              {percent >= 50 && percent <= 55 && <span className="text-green-600 text-5xl px-2">10</span>}
+              {percent >= 56 && percent <= 60 && <span className="text-red-600 text-5xl px-2">9</span>}
+              {percent >= 61 && percent <= 65 && <span className="text-yellow-500 text-5xl px-2">8</span>}
               {percent >= 66 && percent <= 70 && <span className="text-blue-600 text-5xl px-2">7</span>}
-              {percent >= 71 && percent <= 80 && <span className="text-neutral-700 text-5xl px-2">6</span>}
+              {percent >= 71 && percent <= 80 && <span className="text-neutral-600 text-5xl px-2">6</span>}
               {percent >= 81 && percent <= 85 && <span className="text-gray-500 text-5xl px-2">5</span>}
               {percent > 85 && <span className="text-gray-500 text-5xl px-2">4</span>}
           </p>
