@@ -28,7 +28,7 @@ const CourseInput = () => {
 
   return (
     <form>
-    <Image className="object-center" src="/psa.png" alt="psa" width="200" height="200" />
+    <Image className="object-center" src="https://spng.pngfind.com/pngs/s/176-1763869_psa-grading-standards-psa-logo-psa-hd-png.png" alt="psa" width="200" height="200" />
     <h1 className="py-4 underline underline-offset-1 text-lg">Centering Calculator</h1>
       <label>
         Edge A {isNaN(fValue/(fValue + sValue)) ? '' : (fValue/(fValue + sValue) * 100).toFixed(1) + '%'}
