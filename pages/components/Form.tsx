@@ -75,7 +75,7 @@ const CourseInput = () => {
       </div>
       <p className="px-2 py-2 text-2xl text-center">Centering Grade: 
             {percent >= 50 && percent <= 55 && 
-                <span className="text-green-500 text-5xl px-2">10</span>
+                <span className="text-emerald-900 text-5xl px-2">10</span>
             }
             {percent >= 56 && percent <= 60 && 
                 <span className="text-red-400 text-5xl px-2">9</span>
